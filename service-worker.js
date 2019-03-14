@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/giorgio-tedesco/precache-manifest.de8d25f6a685fc85e140f1738f580a3f.js"
+  "/giorgio-tedesco/precache-manifest.99cf2fbf960b304cbf7badc5b17da862.js"
 );
 
 workbox.clientsClaim();
