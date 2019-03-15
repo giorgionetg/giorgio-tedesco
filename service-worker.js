@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/giorgio-tedesco/precache-manifest.ce51737d1caf4c2e5da013516fdcbcbe.js"
+  "/memo-learning-app/precache-manifest.44933ea4b152a9a29906f32001d415b7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/giorgio-tedesco/index.html", {
+workbox.routing.registerNavigationRoute("/memo-learning-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
